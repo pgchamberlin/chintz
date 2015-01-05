@@ -1,0 +1,4 @@
+name: elementA
+dependencies:
+  elements: [ elementB ]
+  css: [ elementA.css ]
