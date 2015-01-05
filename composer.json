@@ -1,0 +1,18 @@
+{
+    "name": "pgchamberlin/static-library-experiment",
+    "type": "library",
+    "description": "Static bits and bobs",
+    "keywords": [],
+    "homepage": "https://github.com/pgchamberlin/static-library-experiment",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pgchamberlin",
+            "email": "pgchamberlin@gmail.com",
+            "homepage": "http://peterchamberlin.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {},
+    "autoload": {},
+}
