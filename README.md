@@ -64,5 +64,4 @@ Yes, this Chintz library example is demoed using the `chintz-parser-php` [here](
 
 ### Why "element" rather than "component"
 
-The word "component" suggests a complete abstraction which maps to a templateable front end view. Within this spec there is no assumption that the element will have a view however. An element may just represent a set of CSS dependencies, or a set of fonts. So a component may be made up of many elements, and an element may represent a component.
-
+The word "component" suggests a complete abstraction which maps to a templateable front end view, whereas within this spec there is no assumption that any given element will have a view. An element may just represent a set of CSS dependencies, or a set of fonts. So a component may be made up of many elements, and an element may represent a component.
