@@ -1,3 +1,3 @@
 name: elementC
 dependencies:
-  css: [ elementC.css ]
+  css: [ elementC/elementC.css ]

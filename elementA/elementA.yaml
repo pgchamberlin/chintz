@@ -1,4 +1,4 @@
 name: elementA
 dependencies:
   elements: [ elementB ]
-  css: [ elementA.css ]
+  css: [ elementA/elementA.css ]

@@ -1,4 +1,5 @@
 .elementA {
-    background-color: #0088ff;
+    padding: 10px;
+    border: 1px dashed #bbb;
 }
 

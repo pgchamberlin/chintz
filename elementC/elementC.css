@@ -1,4 +1,6 @@
-.elementB {
-    background-color: #ff0088;
+.elementC {
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px dotted #ccc;
 }
 
