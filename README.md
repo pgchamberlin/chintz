@@ -60,7 +60,7 @@ You need a tool written in your language of choice which can parse Chintz repos.
 
 ### Is there a demo?
 
-Yes, this Chintz library example is demoed `chintz-parser-php` [here](http://peterchamberlin.com/experiments/static-library-compositor/index.php).
+Yes, this Chintz library example is demoed using the `chintz-parser-php` [here](http://peterchamberlin.com/experiments/static-library-compositor/index.php).
 
 ### Why "element" rather than "component"
 
