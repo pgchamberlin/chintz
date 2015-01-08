@@ -56,11 +56,11 @@ dependencies:
 
 ### How do you use this to make web pages?
 
-You need a tool written in your language of choice which can parse Chintz repos. That parser should be able to resolve each element's dependencies recursively, and do whatever is necessary to enable you to render data in your templates. The good news is that there is already [a PHP one](https://github.com/pgchamberlin/chintz-parser-php), and there are JavaScript and Ruby ones in the pipeline.
+You need a tool written in your language of choice which can parse Chintz repos. That parser should be able to resolve each element's dependencies recursively, and do whatever is necessary to enable you to render data in your templates. The good news is that there is already [`chintz-parser-php`](https://github.com/pgchamberlin/chintz-parser-php) in development, and there are JavaScript and Ruby ones in the pipeline too.
 
 ### Is there a demo?
 
-Yes, this Chintz library example is demoed using the `chintz-parser-php` [here](http://peterchamberlin.com/experiments/static-library-compositor/index.php).
+Yes, this Chintz library example is demoed using `chintz-parser-php` [here](http://peterchamberlin.com/experiments/chintz-parser-php/index.php).
 
 ### Why "element" rather than "component"
 
