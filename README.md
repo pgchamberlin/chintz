@@ -58,6 +58,8 @@ dependencies:
 
 You need a tool written in your language of choice which can parse Chintz repos. That parser should be able to resolve each element's dependencies recursively, and do whatever is necessary to enable you to render data in your templates. The good news is that there is already [`chintz-parser-php`](https://github.com/pgchamberlin/chintz-parser-php) in development, and there are JavaScript and Ruby ones in the pipeline too.
 
+`chintz-parser-php` has instructions on [getting started with the demo](https://github.com/pgchamberlin/chintz-parser-php).
+
 ### Is there a demo?
 
 Yes, this Chintz library example is demoed using `chintz-parser-php` [here](http://peterchamberlin.com/experiments/chintz-parser-php/index.php).
