@@ -1,9 +1,9 @@
 {
-    "name": "pgchamberlin/static-library-experiment",
+    "name": "pgchamberlin/chintz-demo",
     "type": "library",
     "description": "Static bits and bobs",
     "keywords": [],
-    "homepage": "https://github.com/pgchamberlin/static-library-experiment",
+    "homepage": "https://github.com/pgchamberlin/chint-demo",
     "license": "MIT",
     "authors": [
         {
