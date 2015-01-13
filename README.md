@@ -121,9 +121,9 @@ The parser should be able to render templates, typically but not necessarily usi
 It should be possible to initialise the Parser with dependencies
 
  - An instance of a templating engine, such as Mustache
- - 0 or more instances of formatters for the resolution of specific dependencies, which should be registered in the Parser instance
+ - Zero or more instances of formatters for the resolution of specific dependencies, which should be registered in the Parser instance
 
-#### 3.1 Public methods
+#### 3.2 Public methods
 
 The Chintz Parser should expose the following methods: `prepare`, `render`, and `getDependencies`.
 
@@ -150,7 +150,7 @@ The `getDependencies` method should:
  - By default return an array/list of the specified dependency as resolved during the `prepare` step
  - If there is a registered formatter for the dependency, call a `format` method on that instance, passing the default array/list and returning the result
 
-### 5. State
+### 4. State
 
 A single instance of the Chintz Parser should be able to `prepare` any reasonable number of Elements, so that any of them can be rendered with any data, being called in any order.
 
