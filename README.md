@@ -5,6 +5,10 @@ Chintz
 
 Aside from being a (sometimes derogatory) name for flowery patterns, Chintz is a spec for storing static front end elements in a component-oriented way.
 
+### Work in progress
+
+This is work in progress, unversioned spec. Will solidify soon :-)
+
 ## Chintz spec
 
 Each element has its own directory. Within each directory there is
