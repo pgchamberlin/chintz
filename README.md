@@ -88,14 +88,75 @@ dependencies:
   elements: [ anotherThing ]
 ```
 
+## Chintz Parser
+
+### 1. What is a Chintz Parser?
+
+A Chintz Parser is any code library which can parse a Chintz Library and provide the functionality described below. This is intentionally a loose specification, but any implementation should satisfy all of the following goals in general terms.
+
+### 2. Goals
+
+#### 2.1 Make sense of Chintz manifests
+
+The Parser should should be able to read a Chintz Manifest and determine the following information:
+
+ - What is the name of the element
+ - What dependencies does the element have
+
+#### 2.2 Resolve dependencies
+
+The Parser should be able to resolve
+
+ - File locations for all static dependencies
+ - Template locations and static dependencies for all element dependencies
+
+#### 2.3 Render templates
+
+The parser should be able to render templates, typically but not necessarily using an engine such as Mustache.
+
+### 3. Proposed interface
+
+#### 3.1 Initialisation
+
+It should be possible to initialise the Parser with dependencies
+
+ - An instance of a templating engine, such as Mustache
+ - 0 or more instances of formatters for the resolution of specific dependencies, which should be registered in the Parser instance
+
+#### 3.1 Public methods
+
+The Chintz Parser should expose the following methods: `prepare`, `render`, and `getDependencies`.
+
+##### Prepare
+
+The `prepare` method should:
+
+ - Take a single argument; either a single element name or an array/list of them
+ - Read the Manifest for each element, and resolve its dependencies - recursively in the case of other elements
+ - Register each element's template path where appropriate to the template renderer
+
+##### Render
+
+The `render` method should:
+
+ - Take two arguments; an element name and a data parameter in a directly renderable format
+ - Pass these params into the initialised template renderer
+
+##### getDependencies
+
+The `getDependencies` method should:
+
+ - Take a single argument, the name of the dependency as keyed in the Manifests, for example `'js'`
+ - By default return an array/list of the specified dependency as resolved during the `prepare` step
+ - If there is a registered formatter for the dependency, call a `format` method on that instance, passing the default array/list and returning the result
+
+### 5. State
+
+A single instance of the Chintz Parser should be able to `prepare` any reasonable number of Elements, so that any of them can be rendered with any data, being called in any order.
+
+An instance of a Chintz Parser should only ever maintain a single set of dependencies, which is the deduplicated sum of all the dependencies of the elements prepared by the instance.
 
 ## FAQ
-
-### How do you use this to make web pages?
-
-You need a tool written in your language of choice which can parse Chintz repos. That parser should be able to resolve each element's dependencies recursively, and do whatever is necessary to enable you to render data in your templates. The good news is that there is already [`chintz-parser-php`](https://github.com/pgchamberlin/chintz-parser-php) in development, and there are JavaScript and Ruby ones in the pipeline too.
-
-`chintz-parser-php` has instructions on [getting started with the demo](https://github.com/pgchamberlin/chintz-parser-php).
 
 ### Is there a demo?
 
@@ -103,4 +164,4 @@ Yes, this Chintz library example is demoed using `chintz-parser-php` [here](http
 
 ### Why "element" rather than "component"
 
-The word "component" suggests a complete abstraction which maps to a templateable front end view, whereas within this spec there is no assumption that any given element will have a view. An element may just represent a set of CSS dependencies, or a set of fonts. So a component may be made up of many elements, and an element may represent a component.
+The word "component" suggests a complete abstraction which maps to a templateable front end view, whereas within this spec there is no assumption that any given element will have a view. An element may just represent a set of CSS dependencies, or a set of fonts. So a component may be made up of many elements, and an element may represent a component. It is unfortunate that this may create confusion with the concept of an element in HTML, but I haven't thought of a better name yet.
