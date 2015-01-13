@@ -7,7 +7,7 @@ Aside from being a (sometimes derogatory) name for flowery patterns, Chintz is a
 
 ### Work in progress
 
-This is work in progress unversioned spec. Will solidify soon :-)
+This spec is work in progress and is unversioned.
 
 ## Chintz Library
 
