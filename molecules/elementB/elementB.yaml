@@ -1,5 +1,5 @@
 name: elementB
 dependencies:
   elements: [ elementC ]
-  css: [ elementB/elementB.css ]
+  css: [ molecules/elementB/elementB.css ]
 
