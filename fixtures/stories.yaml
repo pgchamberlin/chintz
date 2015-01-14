@@ -1,0 +1,15 @@
+---
+  stories:
+    -
+      title: "UK inflation rate falls to 0.5%"
+      image: "http://ichef.bbci.co.uk/news/235/media/images/79906000/jpg/_79906332_79906331.jpg"
+      summary: "The inflation rate dropped sharply to 0.5% in December, its joint lowest on record, as petrol prices fell Full article UK inflation rate falls to 0.5%"
+    -
+      title: "Facebook restricts violent videos"
+      image: "http://ichef.bbci.co.uk/news/235/media/images/80235000/jpg/_80235687_ebcafb80-1c9b-42bf-b96d-002b2eca52ee.jpg"
+      summary: "Facebook has begun placing warnings over videos posted to its site, stating their contents might \"shock, offend and upset\" if viewed."
+    -
+      title: "Snow and gales bring disruption to UK"
+      image: "http://ichef.bbci.co.uk/news/235/media/images/80259000/jpg/_80259469_80258449.jpg"
+      summary: "Wintry weather is causing disruption across parts of the UK, with warnings of high winds for much of the west and the north."
+

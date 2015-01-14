@@ -1,7 +1,0 @@
-{
-    "title": "This is the root template!",
-    "items": [0,1],
-    "subtitle": "A child partial",
-    "name": "Jack",
-    "occupation": "Nurse"
-}
