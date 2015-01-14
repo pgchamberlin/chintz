@@ -7,7 +7,7 @@ Aside from being a (sometimes derogatory) name for flowery patterns, Chintz is a
 
 ### Work in progress
 
-This is work in progress unversioned spec. Will solidify soon :-)
+This spec is work in progress and is unversioned.
 
 ## Chintz Library
 
@@ -160,7 +160,7 @@ An instance of a Chintz Parser should only ever maintain a single set of depende
 
 ### Is there a demo?
 
-Yes, this Chintz library example is demoed using `chintz-parser-php` [here](http://peterchamberlin.com/experiments/chintz-parser-php/index.php).
+Yes, there is a demo repo: [`chintz-parser-php-demo`](https://github.com/pgchamberlin/chintz-parser-php-demo). You can [see it in action here](http://peterchamberlin.com/experiments/chintz-parser-php-demo/index.php). It uses the PHP Chintz parser, [`chintz-parser-php`](https://github.com/pgchamberlin/chintz-parser-php).
 
 ### Why "element" rather than "component"
 
