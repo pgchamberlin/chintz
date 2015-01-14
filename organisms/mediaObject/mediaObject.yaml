@@ -1,0 +1,3 @@
+name: mediaObject
+dependencies:
+  css: [ organisms/mediaObject/mediaObject.css]
