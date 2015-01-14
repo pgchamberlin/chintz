@@ -158,6 +158,10 @@ An instance of a Chintz Parser should only ever maintain a single set of depende
 
 ## FAQ
 
+### Are there any parser implementations?
+
+Yes, there is a PHP implementation: [`chintz-parser-php`](https://github.com/pgchamberlin/chintz-parser-php), and a Ruby implementation: [`chintz-ruby`](https://github.com/BBC-News/chintz-ruby). Both are work in progress, but please feel free to fork and contribute.
+
 ### Is there a demo?
 
 Yes, there is a demo repo: [`chintz-parser-php-demo`](https://github.com/pgchamberlin/chintz-parser-php-demo). You can [see it in action here](http://peterchamberlin.com/experiments/chintz-parser-php-demo/index.php). It uses the PHP Chintz parser, [`chintz-parser-php`](https://github.com/pgchamberlin/chintz-parser-php).
