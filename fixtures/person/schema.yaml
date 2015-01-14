@@ -1,0 +1,10 @@
+name: person
+collection_name: people
+attributes:
+  name:
+    type: string
+  occupation:
+    type: string
+  hobbies: 
+    type: collection
+    collection_type: hobby
