@@ -1,0 +1,5 @@
+name: hobby
+collection_name: hobbies
+attributes:
+  name:
+    type: string
