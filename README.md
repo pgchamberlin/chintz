@@ -5,13 +5,11 @@ Chintz
 
 Aside from being a (sometimes derogatory) name for flowery patterns, Chintz is a spec for storing and rendering static front end elements in atomic component-oriented way.
 
-By storing front end components in a language-agnostic, component-oriented way, you are able to make your front end work more portable, more reusable, more maintainable, and easier to test.
+![Chintz diagram](http://peterchamberlin.com/media/chintz-diagram.jpg)
+
+By storing front end components in a language-agnostic, component-oriented way, they become more portable, more reusable, more maintainable, and easier to test.
 
 In BBC News we are working mainly with PHP and Ruby, so we have begun implementing clients for Chintz in those languages. In the long term we hope to build a JS one, and are open minded about other implementations. In PHP the we hacked up the core implementation of the client in [~110 LOC](https://github.com/BBC-News/chintz-php/blob/master/src/Chintz/Parser.php), and in Ruby [~50 LOC](https://github.com/BBC-News/chintz-ruby/blob/master/lib/parser.rb), so you might find porting Chintz support to your language of choice is fairly straightforward.
-
-This is a diagram illustrating the idea of Chintz:
-
-![Chintz diagram](http://peterchamberlin.com/media/chintz-diagram.jpg)
 
 
 ### Work in progress
