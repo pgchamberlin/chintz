@@ -1,6 +1,10 @@
 <div class="elementB">
-    <h2>{{subtitle}}</h2>
-    {{#name}}
-        {{> elementC }}
-    {{/name}}
+    <h2>{{name}}</h2>
+    <p>Occupation: {{occupation}}</p>
+    <p>Hobbies:</p>
+    <ul>
+        {{#hobbies}}
+            {{> elementC }}
+        {{/hobbies}}
+    </ul>
 </div>
