@@ -14,7 +14,7 @@ In BBC News we are working mainly with PHP and Ruby, so we have begun implementi
 
 ### Work in progress
 
-This spec is work in progress and is unversioned, but is being actively maintained.
+This spec is work in progress and is unversioned, and pretty much just the product of a two-day hack, but is being actively maintained and will hopefully grow into a stable and complete system.
 
 ## Chintz Library
 
