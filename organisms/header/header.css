@@ -1,0 +1,17 @@
+.header-container {
+    font-family: "TikalSansMedium", Helvetica, Helvetica Neue, Arial;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #0c3c72;
+}
+
+.header-container a {
+    color: #0c3c72;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+}
+
+.header-container a:hover {
+    border: none;
+}

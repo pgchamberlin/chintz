@@ -1,0 +1,11 @@
+name: page
+collection_name: pages
+attributes:
+  title:
+    type: title
+  subtitle:
+    type: subtitle
+  text:
+    type: text
+  footer:
+    type: footer

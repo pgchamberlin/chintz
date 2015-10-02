@@ -1,0 +1,7 @@
+name: header
+collection_name: headers
+attributes:
+  title:
+    type: title
+  subtitle:
+    type: subtitle

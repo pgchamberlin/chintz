@@ -1,0 +1,3 @@
+name: footer
+dependencies:
+  css: [ organisms/footer/footer.css ]

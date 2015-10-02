@@ -1,0 +1,27 @@
+/* @license
+ * MyFonts Webfont Build ID 2295417, 2012-05-20T13:45:59-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Tikal Sans Medium by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/tikal-sans/medium/
+ * Copyright: Copyright (c) 2012 by Miguel Hernandez. All rights reserved.
+ * Licensed pageviews: unspecified
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2295417
+ * 
+ * Â© 2012 Bitstream Inc
+ */
+
+@font-face {
+    font-family: 'TikalSansMedium';
+    src: url('../fonts/230679_1_0.eot');
+    src: url('../fonts/230679_1_0.eot?#iefix') format('embedded-opentype'), 
+    url('../fonts/230679_1_0.woff') format('woff'), 
+    url('../fonts/230679_1_0.ttf') format('truetype');
+}
+

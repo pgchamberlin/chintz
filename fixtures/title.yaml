@@ -1,0 +1,7 @@
+name: title
+collection_name: titles
+attributes:
+  text:
+    type: string
+  link:
+    type: string

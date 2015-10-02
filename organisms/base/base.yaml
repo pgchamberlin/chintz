@@ -1,0 +1,4 @@
+name: base
+dependencies:
+  external_css: [ http://peterchamberlin.com/css/fonts.css ]
+  css: [ organisms/homepage/base.css ]

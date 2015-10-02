@@ -1,0 +1,5 @@
+name: text
+collection_name: texts
+attributes:
+  body:
+    type: string

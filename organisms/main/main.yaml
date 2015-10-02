@@ -1,0 +1,4 @@
+name: main
+dependencies:
+  elements: [ article ]
+  css: [ organisms/homepage/main.css ]

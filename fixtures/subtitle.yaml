@@ -1,0 +1,5 @@
+name: subtitle
+collection_name: subtitles
+attributes:
+  text:
+    type: string
